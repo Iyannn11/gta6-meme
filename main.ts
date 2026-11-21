@@ -1,3 +1,5 @@
+// Round 2 entry: the program only copies POST.json (the X post link) to
+// /output. The house reads the post itself from X; nothing else is judged.
 import { copyFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
