@@ -1,4 +1,4 @@
-# VICE CITY PARKING TICKET — GTA 6 Meme (Round 4)
+# VICE CITY PARKING TICKET — GTA 6 Meme (Round 5)
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/Iyannn11/gta6-meme/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
@@ -10,8 +10,7 @@ GTA 6 releases.
 
 The meme (meme-r4.png) was drawn entirely with PIL: a Vice City sunset, palm
 trees, and the official parking ticket of the world's most patient driver.
-The make.fun ghost and wordmark are in the ticket's footer.
 
-The post on X (by @iiaannnm) carries the meme, a make.fun link, an
-@makefunai tag and the play code makefun-outlet-tapestry-halibut. Its address
-is in POST.json.
+Round 5 is a fix of Round 4: the same meme and the same X post, with main.ts
+fixed to find POST.json through MAKEFUN_BOT_DIR instead of the working
+directory, so the program also runs when the grader starts it from elsewhere.
